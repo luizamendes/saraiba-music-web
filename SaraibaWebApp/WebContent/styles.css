@@ -1,0 +1,315 @@
+@charset "ISO-8859-1";
+
+h3 {
+	
+	font-family: verdana, arial, sans-serif; 
+	padding-bottom: 10px;
+}
+
+.titulo{
+	
+	font-family: verdana, arial, sans-serif; 
+	font-size: 20px;
+    font-weight: bold;		
+}
+
+.resultadoBusca{
+	
+	font-family: verdana, arial, sans-serif; 
+	font-size: 15px;
+	line-height: 25px;
+	text-decoration: none; 
+	
+}
+
+#resultadoMusica{
+	
+	line-height: 45px;
+	
+}
+
+.infoMusica{
+	
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.addCarrinho{
+	
+	font-family: verdana, arial, sans-serif;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-color: #517fa4;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	
+}
+.addCarrinho:hover { 
+	
+	background-color: #d7e2ec; 
+		
+}
+
+.excluirCarrinho{
+	
+	font-family: verdana, arial, sans-serif;
+	background-color: transparent;
+	border: none;
+	
+}
+.tabelaCarrinho{
+	
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+td, th {
+	
+	 padding: 10px;
+	 border-bottom: 1px solid #ddd;
+}
+
+td{
+	
+    text-align: center;
+    font-size: 12px;
+}
+
+.camposCadastro{
+
+	font-size: 14px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#campoNaoAlteravel{
+	
+	background-color: lightgrey;
+}
+
+#pagLogin {
+	
+	font-size: 18px;
+
+}
+
+#totalTabela{
+	
+	text-align: right;
+	
+}
+
+.titulosTabela{
+		
+	background-color: #ccdae6;
+}
+
+.tituloInfoMusica{
+
+	font-family: verdana, arial, sans-serif;
+	padding-bottom: 5px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.tituloNaoLogado{
+	
+		
+	
+}
+
+.greeting{
+	
+	font-size: 9pt;
+	font-family: verdana, arial, sans-serif; 
+	text-alignment: left;
+	display: inline;	
+	
+}
+
+.topo{
+	
+	height: 50px;
+	width: 100%;
+	background-color: #517fa4;
+	position: absolute;	
+	
+}
+
+.logo{
+	
+	margin-left: 20px;
+    margin-top: 7px;
+    float: left;
+}
+
+.search {
+	
+	width: 400px;
+	height: 50px;
+	left: 50%;
+	top: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	clear: both;
+	margin: 20px;
+	font-family: verdana, arial, sans-serif; 
+	font-size: 15pt;
+	align-items: center;
+	margin-top: -5px;
+		
+}
+
+.campos_cadastro {
+	
+	font-family: verdana, arial, sans-serif; 
+	width: 200px;
+	height: 25px;
+
+}
+
+.fotoAlbum{
+	
+	width:250px;
+	float: left;
+	margin-top: 40px;		
+}
+
+.album_thumbnail{
+	
+	width:50px;
+	float: left;
+	margin-right: 10px;		
+}
+
+.musicaDescricao{
+	
+	float: right;
+	margin-right: 100px;		
+}
+
+
+.testeLetras {
+   	background-color: transparent;
+   	border: none;
+   	padding-right: 1px; 
+	padding-left: 1px;
+}
+
+.classForm{
+	
+	width: 20px;
+}
+
+.teste{
+	clear: left;
+}
+
+.dadosPagamento{
+	
+	width: 250px;
+	font-size: 15px;
+	margin-bottom:5px;
+	padding: 2px;	
+}
+.botaomenu {
+
+	font-family: verdana, arial, sans-serif; 
+	font-size: 11pt; 
+  	font-weight: bold; 
+   	padding-left: 15px;
+	padding-right: 15px; 
+	padding-top: 8px; 
+	padding-bottom: 8px;  
+   	background-color: #517fa4; 
+   	color: #FFFFFF; 
+   	text-decoration: none;
+	border-radius: 5px; 
+	margin: 5px;
+	margin-top: 20px;
+	border: none;
+	
+} 
+
+.botaomenu:link, 
+
+.botaomenu:visited { 
+ 
+} 
+
+.botaomenu:hover { 
+
+	 background-color: #385774; 
+}
+
+.login{
+	
+	font-family: verdana, arial, sans-serif; 
+	font-size: 9pt; 
+  	font-weight: bold; 
+   	padding-left: 15px;
+	padding-right: 15px; 
+	padding-top: 8px; 
+   	color: #FFFFFF; 
+	float: right;
+	background-color: transparent;
+   	border: none;
+   	cursor: pointer;
+   	display: inline;	
+   	margin-top: 10px;
+   	text-decoration: none;
+   	line-height: 15px;
+	
+}
+
+.container {
+	
+	width: 100vw;        
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+   }
+
+ .box {
+	
+	width: 600px;
+	height: 600px;
+	background: #fff;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	
+}
+
+.legenda {
+	
+	text-alignment: center;
+	font-family: verdana, arial, sans-serif; 
+	font-size: 10pt; 
+	
+}
+
+.titulo_resultado {
+	
+	font-family: verdana, arial, sans-serif; 
+	font-size: 20pt; 
+	
+	
+}
+
+
+}
